@@ -1,0 +1,9 @@
+{
+  "readableLineLength": true,
+  "strictLineBreaks": false,
+  "foldIndent": true,
+  "rightToLeft": false,
+  "newFileLocation": "current",
+  "attachmentFolderPath": "fig",
+  "promptDelete": false
+}

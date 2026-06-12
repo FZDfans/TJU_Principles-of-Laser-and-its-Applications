@@ -1,0 +1,35 @@
+﻿# OS / editor noise
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Obsidian volatile workspace/cache state
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache/
+.obsidian/.trash/
+.trash/
+
+# Local AI assistant/session/cache files
+.claudian/previews_*/
+.claudian/sessions/
+.claude/
+
+# Temporary rendered PDF pages / OCR outputs
+tmp_pdf_pages*/
+
+# Python / tooling caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Logs and local env
+*.log
+.env
+.env.*
+
+# Local Claudian workspace (not part of publishable vault)
+.claudian/
+
+# Obsidian Remotely Save plugin bundle contains OAuth client constants; reinstall via Obsidian instead
+.obsidian/plugins/remotely-save/

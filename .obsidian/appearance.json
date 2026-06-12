@@ -1,0 +1,12 @@
+{
+  "cssTheme": "Minimal",
+  "baseFontSizeAction": true,
+  "textFontFamily": "微软雅黑",
+  "interfaceFontFamily": "微软雅黑",
+  "baseFontSize": 17,
+  "theme": "obsidian",
+  "enabledCssSnippets": [
+    "homework-qa",
+    "exam-summary-images"
+  ]
+}

@@ -1,0 +1,34 @@
+﻿/* 考点总结：关闭 Minimal 主题暗色模式下“图片默认变暗、悬停变亮”的效果 */
+body.theme-dark,
+.theme-dark {
+  --image-muted: 1 !important;
+}
+
+body.theme-dark .markdown-preview-view img,
+body.theme-dark .markdown-rendered img,
+body.theme-dark .markdown-source-view img,
+body.theme-dark .markdown-source-view.mod-cm6 img,
+body.theme-dark .internal-embed.image-embed img,
+body.theme-dark .image-embed img,
+body.theme-dark .cm-contentContainer img,
+body.theme-dark .cm-embed-block img,
+body.theme-dark span.image-embed img,
+body.theme-dark div.image-embed img,
+.markdown-preview-view img,
+.markdown-rendered img,
+.markdown-source-view img,
+.internal-embed.image-embed img,
+.image-embed img {
+  opacity: 1 !important;
+  filter: none !important;
+  mix-blend-mode: normal !important;
+  transition: none !important;
+}
+
+body.theme-dark .markdown-preview-view img:hover,
+body.theme-dark .markdown-rendered img:hover,
+body.theme-dark .markdown-source-view img:hover,
+body.theme-dark .image-embed img:hover {
+  opacity: 1 !important;
+  filter: none !important;
+}

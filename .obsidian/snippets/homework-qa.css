@@ -1,0 +1,42 @@
+/* ????-???????/?????? */
+
+.markdown-preview-view.homework-qa h3,
+.markdown-source-view.mod-cm6.homework-qa .HyperMD-header-3 {
+  font-family: "Microsoft YaHei", "SimHei", sans-serif;
+  font-size: 1.35em;
+  font-weight: 800;
+  color: #1f4e79;
+  border-left: 5px solid #4f81bd;
+  padding-left: 0.55em;
+  margin-top: 1.5em;
+}
+
+.markdown-preview-view.homework-qa h4,
+.markdown-source-view.mod-cm6.homework-qa .HyperMD-header-4 {
+  font-family: "Microsoft YaHei", "SimHei", sans-serif;
+  font-size: 1.15em;
+  font-weight: 700;
+  color: #376092;
+}
+
+.markdown-preview-view.homework-qa p,
+.markdown-source-view.mod-cm6.homework-qa .cm-line {
+  font-family: "KaiTi", "STKaiti", "Microsoft YaHei", serif;
+}
+
+.markdown-preview-view.homework-qa .answer-label,
+.markdown-source-view.mod-cm6.homework-qa .answer-label {
+  display: inline-block;
+  font-family: "Microsoft YaHei", "SimHei", sans-serif;
+  font-size: 1.08em;
+  font-weight: 800;
+  color: #c0504d;
+  background: rgba(192, 80, 77, 0.10);
+  border-left: 4px solid #c0504d;
+  padding: 0.08em 0.45em;
+  margin-top: 0.5em;
+}
+
+.markdown-preview-view.homework-qa mjx-container {
+  font-size: 1.04em;
+}
